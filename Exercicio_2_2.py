@@ -1,0 +1,19 @@
+##############################################################################
+# Parte do livro Introdução à Programação com Python
+# Autor: Nilo Ney Coutinho Menezes
+# Editora Novatec (c) 2010-2020
+# Primeira edição - Novembro/2010 - ISBN 978-85-7522-250-8
+# Segunda edição - Junho/2014 - ISBN 978-85-7522-408-3
+# Terceira Edição - Janeiro/2019 - ISBN 978-85-7522-718-3
+#
+# Site: https://python.nilo.pro.br/
+#
+# Arquivo: C:\Users\adriano.paes\Desktop\Bootcamp Python\Programas\Exercicio_2_2.py
+#
+# Aluno: Adriano César Paes de Almeida
+##############################################################################
+
+expressao = 10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2 # 10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2
+expressao_p = (10 % 3) * (10 ** 2) + 1 - (10 * 4 / 2) # (10 % 3) retorna o resto da divisão 10/3
+
+print(f"O valor calculado sem parênteses é: {expressao} e com parentênteses é: {expressao_p}")
